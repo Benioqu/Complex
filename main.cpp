@@ -13,15 +13,18 @@ int main()
 	cin >> b.re >> b.im;
 	print(b);
 	complex z;
+	
 	z = add(a, b);
 	print(z);
+	
 	z = substract(a, b);
 	print(z);
+	
 	z = multiply(a, b);
 	print(z);
-	while(1)
-	{
-
-	}
+	
+	z = divide(a, b);
+	print(z);
+	
 	return 0;
 }
